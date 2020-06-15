@@ -40,7 +40,7 @@ namespace lesson3
             StringBuilder builder = new StringBuilder();
             //builder.Append("oooo");
             //builder.Append("pppp");
-            builder.AppendFormat("hello {0} {1}", "abcde", "world");
+            builder.AppendFormat("hello {0} {1}", "abcccccde", "world");
             Console.WriteLine(builder);
             Console.ReadLine();
         }
