@@ -16,9 +16,10 @@ namespace lesson4
             Console.WriteLine(person.Age);
             person.Age = 12;
             Console.WriteLine(person.getage()); //10-10
+            Console.WriteLine(person.Gername());
         }
     }
-    class Person : Isuper
+    class Person : man, Isuper
     {
         int age=15;
 
@@ -50,14 +51,26 @@ namespace lesson4
         {
             return age * 80;
         }
+
+        public override int GetAbstract()
+        {
+            throw new NotImplementedException();
+        }
     }
 
     abstract class man
     {
+        public string name;
+
+        public string Gername()
+        {
+            return name;
+        }
         public abstract int GetAbstract();
     }
     interface Isuper
     {
+        //int name;
         int Getsuper();
     }
 }
