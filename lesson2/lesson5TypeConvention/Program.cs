@@ -33,8 +33,29 @@ namespace lesson5TypeConvention
             C2 c22 =  c11 as C2;
             Console.WriteLine(c22 == null);
             //int ias = "5" as int;
-
+            string sFrom1 = i.ToString();
+            int iFormS = Convert.ToInt32("100");
+            int iFormS2 = Int32.Parse("101");
+            int iFormS3;
+            bool succeed = Int32.TryParse("abdccde", out iFormS3);
+            Console.WriteLine(iFormS3);
             //Console.WriteLine(iFormD);
+
+            int box = 100;
+            object ibox = box;
+
+            int iunbox = (int)ibox;
+            object nullobject = 5;
+            int inull = (int)nullobject;
+
+            int? iNullable = 50;
+            Console.WriteLine(iNullable.Value);
+
+            int ii = iNullable ?? 500;
+            Console.WriteLine(ii);
+
+
+
             Console.WriteLine();
         }
         class C1
