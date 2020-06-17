@@ -18,7 +18,7 @@ namespace IOread
             using (StreamReader sr = File.OpenText(File_name))
             {
                 string input;
-                while((input = sr.ReadLine()) != null)
+                while((input = sr.ReadLine()) != null)//每一行讀取，若為空則不再動作
                 {
                     Console.WriteLine(input);
                 }
