@@ -17,9 +17,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson6collection", "lesson
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson7Encapsulation", "lesson7Encapsulation\lesson7Encapsulation.csproj", "{DC744363-7807-4B91-BAA0-84297507DF22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnotherAssembly", "AnotherAssembly\AnotherAssembly.csproj", "{FFD562AE-ECC0-4B15-8AEE-2BC2FFF4CDCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnotherAssembly", "AnotherAssembly\AnotherAssembly.csproj", "{FFD562AE-ECC0-4B15-8AEE-2BC2FFF4CDCD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson9Inheritance", "lesson9Inheritance\lesson9Inheritance.csproj", "{414DEAED-73F5-450A-BDC2-9C17A06D626C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson9Polymorphism", "lesson9Polymorphism\lesson9Polymorphism.csproj", "{D317D9ED-A6F5-42A7-8DE5-13CB4249C5DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{414DEAED-73F5-450A-BDC2-9C17A06D626C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{414DEAED-73F5-450A-BDC2-9C17A06D626C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{414DEAED-73F5-450A-BDC2-9C17A06D626C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D317D9ED-A6F5-42A7-8DE5-13CB4249C5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D317D9ED-A6F5-42A7-8DE5-13CB4249C5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D317D9ED-A6F5-42A7-8DE5-13CB4249C5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D317D9ED-A6F5-42A7-8DE5-13CB4249C5DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
