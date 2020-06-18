@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOread", "IOread\IOread.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexer", "Indexer\Indexer.csproj", "{A2FBECBA-5FAA-4DEB-85B6-1399C8D3AF99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{276CC194-7F7D-4956-B170-5EBD4B13F35B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{A2FBECBA-5FAA-4DEB-85B6-1399C8D3AF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2FBECBA-5FAA-4DEB-85B6-1399C8D3AF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2FBECBA-5FAA-4DEB-85B6-1399C8D3AF99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{276CC194-7F7D-4956-B170-5EBD4B13F35B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276CC194-7F7D-4956-B170-5EBD4B13F35B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276CC194-7F7D-4956-B170-5EBD4B13F35B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276CC194-7F7D-4956-B170-5EBD4B13F35B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
